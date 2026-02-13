@@ -31,9 +31,10 @@ noBtn.addEventListener("click", () => {
   yesBtn.style.transform = `scale(${yesScale})`;
 
   // dacă YES devine foarte mare, ascunde NO
-  if (yesScale >= 2.5) {
+  if (yesScale >= 2.0) {
     noBtn.style.display = "none";
     yesBtn.style.width = "100%";
     yesBtn.style.height = "100%";
   }
 });
+
